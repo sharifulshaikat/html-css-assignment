@@ -159,3 +159,91 @@
 }
 
 /* speaker section css start*/
+
+/*pricing section start*/
+
+.pricing-section{
+     padding:100px 0;
+     background:#ffffff;
+     
+}
+
+.pricing-section-title {
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.pricing-section-title h2{
+    font-size:42px;
+    color:#1d1d1d;
+    margin-bottom:15px;
+}
+
+.pricing-section-title p{
+    font-size:18px;
+    color:#666;
+}
+
+.pricing-section-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    background: white;
+
+}
+
+
+/*pricing section end*/
+
+/* fotter section start*/
+
+.footer-section{
+    background: #ceced3;
+    padding: 40px 8%;
+    background-color: #6b6e74;
+}
+
+.footer-section-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+
+.fotter-social-icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    
+
+}
+
+
+.footer hr {
+    margin: 30px  20px;
+    border: none;
+    height: 1px;
+    color: #000000;
+   
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 15px;
+    color: #ebdada;
+    padding: 20px;
+}
+
+/* fotter section end*/
