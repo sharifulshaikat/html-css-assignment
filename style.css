@@ -162,36 +162,129 @@
 
 /*pricing section start*/
 
+
+
 .pricing-section{
-     padding:100px 0;
-     background:#ffffff;
-     
-}
 
-.pricing-section-title {
-    text-align:center;
-    margin-bottom:60px;
-}
-
-.pricing-section-title h2{
-    font-size:42px;
-    color:#1d1d1d;
-    margin-bottom:15px;
-}
-
-.pricing-section-title p{
-    font-size:18px;
-    color:#666;
-}
-
-.pricing-section-container{
     display:flex;
     justify-content:center;
+    align-items:center;
     gap:30px;
     flex-wrap:wrap;
-    background: white;
-
 }
+
+     
+
+.pricing-section-heading{
+    text-align:center;
+    margin-bottom:55px;
+    padding: 20px;;
+}
+
+.pricing-section-heading h2{
+    font-size:34px;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+
+.pricing-cards{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;;
+}
+
+.standard-card{
+    width:320px;
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+}
+
+.plan{
+    font-size:12px;
+    color:#9ca3af;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.standard-card h3{
+    font-size:42px;
+    color:#111827;
+    margin-bottom:30px;
+}
+
+.standard-card ul{
+    list-style:none;
+    margin-bottom:35px;
+}
+
+.standard-card ul li{
+    font-size:15px;
+    color:#4b5563;
+    margin-bottom:14px;
+    line-height:1.5;
+}
+
+.white-btn,
+.blue-btn{
+    margin-top:auto;
+    padding:14px;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.white-btn{
+    background:#fff;
+    border:2px solid #2563eb;
+    color:#2563eb;
+}
+
+
+.blue-btn{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+}
+
+
+
+
+.pro-card{
+    background:#143a79;
+    color:#fff;
+    width:320px;
+    background:#ffffff;
+    border-radius:12px;
+    padding:30px;
+   
+}
+
+.pro-card .plan{
+    color:#b7c4e6;
+}
+
+.pro-card h3{
+    color:#fff;
+}
+
+.pro-card ul li{
+    color:#e5e7eb;
+}
+.featured .blue-btn{
+    background:#2563eb;
+}
+
 
 
 /*pricing section end*/
